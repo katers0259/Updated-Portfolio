@@ -1,17 +1,16 @@
-import React, {useState} from 'react'
-import { TOTAL_SCREENS, GET_SCREEN_INDEX } from '../../../utilities/commonUtils'
-import ScrollService from '../../../utilities/ScrollService'
-import {fabars} from '@fortawesome/free-solid-svg-icons'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import './Header.css'
-
+import React, {useState} from 'react';
+import { TOTAL_SCREENS, GET_SCREEN_INDEX } from '../../../utilities/commonUtils';
+import ScrollService from '../../../utilities/ScrollService';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import './Header.css';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 
 
 export default function Header() {
 
     const [selectedScreen, setselectedScreen] = useState(0)
-    const [shoeHeaderOptions, setShowHeaderOptions] = useState(false)
+    const [showHeaderOptions, setShowHeaderOptions] = useState(false)
 
     const updateCurrentScreen = (currentScreen) => {
         if(!currentScreen || !currentScreen.screenInView)
@@ -59,10 +58,10 @@ let currentScreenSubscription = ScrollService.currentScreenBroadcaster.subscribe
 
   return (
     <div>
-        <div className='header-option' onClick={() => setShowHeaderOptions(!showHeaderOptions)}>
+        <div className='header-container' onClick={() => setShowHeaderOptions(!showHeaderOptions)}>
             <div className="header-parent">
                 <div className='header-hamburger' onClick={() => setShowHeaderOptions(!showHeaderOptions)}>
-                    <FontAwesomeIcon className='header-hamburger-bars' icon={fabars} />
+                    <FontAwesomeIcon className='header-hamburger-bars' icon={faBars} />
                 </div>
                 <div className="header-logo">
                     <span>Kaitlyn</span>
