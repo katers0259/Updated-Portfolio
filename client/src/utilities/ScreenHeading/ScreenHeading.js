@@ -1,4 +1,6 @@
 import React from 'react'
+import './ScreenHeading.css'
+
 
 export default function ScreenHeading(props) {
   return (
@@ -16,7 +18,7 @@ export default function ScreenHeading(props) {
         }
         <div className='heading-seperator'>
             <div className='seperator-line'>
-                
+
             </div>
         </div>
     </div>
