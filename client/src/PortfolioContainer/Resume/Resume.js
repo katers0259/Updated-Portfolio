@@ -106,9 +106,50 @@ Key Accomplishments:
                 </span>
                 <br/>
                 
+            </div>,
+            <div className='resume-screen-container programming-skills-container'
+            key="programming-skills">
+                {programminigSkillDetails.map((skill, index)=>(
+                    <div className='skill-parent' key={index}>
+                        <div className='heading-bullet'></div>
+                        <span>{skill.skill}</span>
+                        <div className='skill-percentage'></div>
+                        <div style={{width:skill.ratingPercentage + "%"}}
+                        className='active-percentage'>
+
+                        </div>
+                    </div>
+                ))}
+            </div>,
+            <div className='resume-screen-container' key="projects">
+                {projectDetails.map((projectDetails, index)=>(
+                    <ResumeHeading
+                    key={index}
+                    heading={projectDetails.title}
+                    subheading={projectDetails.subHeading}
+                    description={projectDetails.description}
+                    fromDate={projectDetails.duration.fromDate}
+                    toDate={projectDetails.duration.toDate}
+                    />
+                ))}
+            </div>,
+
+            <div className='resume-screen-container' key="interests">
+                <ResumeHeading 
+                heading='Home Renovations'
+                description=" I love haveing a vision, and then making that vision become a reality. I have learned how to do so many new things from doing home rennovations ourselves."
+                />
+                <ResumeHeading 
+                heading='Travel'
+                description=" I love going to new coutries and cities and getting to know more cultures."
+                />
+                <ResumeHeading 
+                heading='Animals'
+                description=" I have a dream one day to run an animal sanctuary."
+                />
             </div>
-        </div>
-    ]
+        </div>,
+    ];
 
     let fadeInScreenHandler = (screen) =>{
         if(screen.fadeInScreen !== props.id)
