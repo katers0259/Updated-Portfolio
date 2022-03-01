@@ -23,6 +23,7 @@
 flex-grow: 1;
 width:600px;
 overflow: hidden;
+overflow-y:scroll;
 padding: 0 0 0 70px;
 }
 
@@ -148,7 +149,7 @@ justify-content: space-between;
 height:15px;
 transition: 0.8s ease;
 position: absolute;
-background-color: #C4A287;
+background-color: #533745;
 }
 
 .skill-parent span{
@@ -197,6 +198,11 @@ background-color: #C4A287;
     }
 }
 
-@media only screen and (max-width: ){
+@media only screen and (max-width: 346px ){
     
+.resume-screen-container {
+    height: 450px;
+ 
+}
+
 }
