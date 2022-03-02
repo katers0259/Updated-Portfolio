@@ -62,7 +62,7 @@ export default function Profile() {
                     >
                         Work Together 
                     </button>
-                    <a href='KaitlynBranagan.pdf' download='Kaitlyn KaitlynBranagan.pdf'>
+                    <a href='KaitlynBranagan1.pdf' download='Kaitlyn KaitlynBranagan1.pdf'>
                         <button className='btn highlighted-btn'>My Resume</button>
                     </a>
                 </div>
