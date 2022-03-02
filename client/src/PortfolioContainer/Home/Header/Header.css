@@ -1,14 +1,14 @@
 .header-container{
     display: flex;
     justify-content: center;
-    height: 140px;
+    height: 149px;
     color:#ffffff;
 }
 
 .header-parent{
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height:100%;
     width:70%;
     color:#ffffff;
@@ -34,7 +34,7 @@
     display: none;
     color:#ffffff
 }
-.header-options-seperator{
+.header-option-seperator{
     margin:0 50px 0 0;
     color:#ffffff;
 }

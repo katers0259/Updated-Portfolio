@@ -42,7 +42,7 @@ export default function AboutMe(props) {
         }
 
   return (
-    <div className='about-me-container screen-container' id={props.id || ""}>
+    <div className='about-me-container screen-container fade-in' id={props.id || ""}>
         <div className='about-me-parent'>
             <ScreenHeading 
             title={'About Me'}
@@ -59,7 +59,8 @@ export default function AboutMe(props) {
                           {renderHighlights()}
                       </div>
                       <div className='about-me-options'>
-                      <button className='btn primary-btn'>
+                      <button className='btn primary-btn'
+                      onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>
                         Work Together 
                       </button>
                         <a href='KaitlynBranagan.pdf' download='Kaitlyn KaitlynBranagan.pdf'>
