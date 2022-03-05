@@ -57,7 +57,53 @@ border-radius: 50px 50px 50px 0;
     height: auto;
     width:200px;
 }
-.testimonial-section .client-info .tech-used{
-    margin-top:91px;
 
+.testimonial-section .client-info h5{
+    
+        position: relative;
+        left: 0;
+        top: 0;
+        height: auto;
+        width: 150px;
+        margin-top:125px;
+}
+.testimonial-section .client-info p{
+font-size: 16px;
+line-height: 26px;
+font-weight: 400;
+margin:0;
+}
+
+@media only screen and (max-width:1220px){
+    .testimonial-section .client-info h5 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        margin: 146px 0 2px;
+        position: relative;
+    }
+    .testimonial-section .client-info .tech-used{
+        margin-top:0;
+    }
+    .testimonial-section .client-info img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: auto;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .testimonial-section .client-info h5 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        margin: 146px 0 2px;
+        position: relative;
+    }
+    .testimonial-section .client-info .tech-used{
+        margin-top:0;
+    
+    }
 }
