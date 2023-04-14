@@ -124,10 +124,8 @@ const Resume = (props) => {
                 </span>
                 <br/>
                 </div>
-      </div>
-    </div>,
-    <div className="resume-screen-container" key="work-experience">
-    <div className="experience-container">
+    
+  
     <ResumeHeading
           heading={"Cecelia New York"}
           subheading={"Web Developer / Shopify Store Manager"}
