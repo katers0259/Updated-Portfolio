@@ -71,12 +71,6 @@ const Resume = (props) => {
     description:"Completed 8 Larger Scale Projects with HydroJug, in my first year with them. These Projects include, a Product Page, Collection Page, Home page, Landing Pages, Wholesale Portal,  ETC.",
     subheading:"Technologies Used: Shopify Liquid, React, HTML, CSS, Javasript"
 },
-{
-    title:"Pixi.Pics", 
-    duration:{fromDate: "2020", toDate:"2020"},
-    description:"A Website were you can purchase digital copies of photos.",
-    subheading:"Technologies Used: TailwindCSS, React, HTML, CSS, Javasript, AWS, MongoDB"
-},
 
   ];
 
