@@ -34,6 +34,7 @@
   }
   .resume-screen-container .work-experience{
     scroll-behavior: smooth;
+    margin: 20px 0 50px 0;
   }
 
   .resume-description-text {
