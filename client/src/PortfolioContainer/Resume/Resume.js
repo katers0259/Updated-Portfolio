@@ -45,10 +45,11 @@ const Resume = (props) => {
   /* STATIC RESUME DATA FOR THE LABELS*/
   const resumeBullets = [
     { label: "Work History", logoSrc: "work-history.svg" },
+    { label: "Interests", logoSrc: "interests.svg" },
     { label: "Education", logoSrc: "education.svg" },
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
-    { label: "Interests", logoSrc: "interests.svg" },
+    
   ];
 
   //here we have
