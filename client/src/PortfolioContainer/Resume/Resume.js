@@ -77,6 +77,80 @@ const Resume = (props) => {
   ];
 
   const resumeDetails = [
+/* WORK EXPERIENCE */
+<div className="resume-screen-container" key="work-experience">
+<div className="experience-container">
+<ResumeHeading
+      heading={"HydroJug"}
+      subheading={"Web Developer"}
+      fromDate={" April 2021"}
+      toDate={"June 2022"}
+      />
+      <div className='experience-description'>
+          <span className='resume-description-text'>
+              Worked as a web developer at HydroJug a Start Up Company, Working on a team of 2 and has grown to team of 3 Developers.
+          </span>
+      </div>
+      <div className='experience-description'>
+          <span className='resume-description-text'>
+          Responsible for all aspects of HydroJug US Site, as well as other assigned tasks for our
+          HydroJug UK site as well as some of our other brands. Launching New Products, creating new
+          and modern design for all websites brand wide. Helping with UX/UI Design.
+          <br/>
+          
+          Key Accomplishments:
+          ● Learning an entirely new language (Shopify Liquid) for this position.
+          ● Completed 8 Large Projects in less than 9 Months with the Company.
+          ● Helping Deploy and Run our UK Site.
+          </span>
+          <br/>
+          </div>
+
+
+            <ResumeHeading
+    heading={"Cecelia New York"}
+    subheading={"Web Developer / Shopify Store Manager"}
+    fromDate={" June 2022"}
+    toDate={"Present"}
+    />
+    <div className='experience-description'>
+        <span className='resume-description-text'>
+            Currently working as a solo developer and site manager to maintain the company site and shopify backend.
+        </span>
+    </div>
+    <div className='experience-description'>
+        <span className='resume-description-text'>
+        Responsible for site maintence, speed, and updates including but not limited to Products (sku's, barcodes, images, descriptions, weights, metafieldss, varients, prices, sales, discounts )., Creating new custom sections, pages & features. Theme Updates. Product collection updates.
+        Thirdparty App Intergrations
+        Script/Pixels Intergrations
+        Facebook/Meta Ads and Google Ads Manager
+        Customer Service & Returns, Refuns, Exchanges
+        Collaboration With Team Members
+
+        </span>
+        <br/>
+        </div>
+</div>
+</div>,
+ /* Interests */
+ <div className="resume-screen-container" key="interests">
+ <ResumeHeading 
+    heading='Home Renovations'
+    description=" I love haveing a vision, and then making that vision become a reality. I have learned how to do so many new things from doing home rennovations ourselves."
+    />
+    <ResumeHeading 
+    heading='Travel'
+    description=" I love going to new coutries and cities and getting to know more cultures."
+    />
+    <ResumeHeading 
+    heading='Animals'
+    description=" I have a dream one day to run an animal sanctuary."
+    />
+</div>,
+
+
+
+
     <div className="resume-screen-container" key="education">
             <ResumeHeading
             heading={"University Of Utah, Utah"}
@@ -92,111 +166,43 @@ const Resume = (props) => {
             />
             <br/>
     </div>,
-    
-
-    /* WORK EXPERIENCE */
-    <div className="resume-screen-container" key="work-experience">
-      <div className="experience-container">
-      <ResumeHeading
-            heading={"HydroJug"}
-            subheading={"Web Developer"}
-            fromDate={" April 2021"}
-            toDate={"June 2022"}
-            />
-            <div className='experience-description'>
-                <span className='resume-description-text'>
-                    Worked as a web developer at HydroJug a Start Up Company, Working on a team of 2 and has grown to team of 3 Developers.
-                </span>
+        /* PROGRAMMING SKILLS */
+        <div
+        className="resume-screen-container programming-skills-container"
+        key="programming-skills"
+      >
+        {programmingSkillsDetails.map((skill, index) => (
+          <div className="skill-parent" key={index}>
+            <div className="heading-bullet"></div>
+            <span>{skill.skill}</span>
+            <div className="skill-percentage">
+              <div
+                style={{ width: skill.ratingPercentage + "%" }}
+                className="active-percentage-bar"
+              ></div>
             </div>
-            <div className='experience-description'>
-                <span className='resume-description-text'>
-                Responsible for all aspects of HydroJug US Site, as well as other assigned tasks for our
-                HydroJug UK site as well as some of our other brands. Launching New Products, creating new
-                and modern design for all websites brand wide. Helping with UX/UI Design.
-                <br/>
-                
-                Key Accomplishments:
-                ● Learning an entirely new language (Shopify Liquid) for this position.
-                ● Completed 8 Large Projects in less than 9 Months with the Company.
-                ● Helping Deploy and Run our UK Site.
-                </span>
-                <br/>
-                </div>
-    
+          </div>
+        ))}
+      </div>,
   
-                  <ResumeHeading
-          heading={"Cecelia New York"}
-          subheading={"Web Developer / Shopify Store Manager"}
-          fromDate={" June 2022"}
-          toDate={"Present"}
+      /* PROJECTS */
+      <div className="resume-screen-container" key="projects">
+        {projectsDetails.map((projectsDetails, index) => (
+          <ResumeHeading
+            key={index}
+            heading={projectsDetails.title}
+            subHeading={projectsDetails.subHeading}
+            description={projectsDetails.description}
+            fromDate={projectsDetails.duration.fromDate}
+            toDate={projectsDetails.duration.toDate}
           />
-          <div className='experience-description'>
-              <span className='resume-description-text'>
-                  Currently working as a solo developer and site manager to maintain the company site and shopify backend.
-              </span>
-          </div>
-          <div className='experience-description'>
-              <span className='resume-description-text'>
-              Responsible for site maintence, speed, and updates including but not limited to Products (sku's, barcodes, images, descriptions, weights, metafieldss, varients, prices, sales, discounts )., Creating new custom sections, pages & features. Theme Updates. Product collection updates.
-              Thirdparty App Intergrations
-              Script/Pixels Intergrations
-              Facebook/Meta Ads and Google Ads Manager
-              Customer Service & Returns, Refuns, Exchanges
-              Collaboration With Team Members
+        ))}
+      </div>,
 
-              </span>
-              <br/>
-              </div>
-    </div>
-  </div>,
-      /* Interests */
-      <div className="resume-screen-container" key="interests">
-      <ResumeHeading 
-         heading='Home Renovations'
-         description=" I love haveing a vision, and then making that vision become a reality. I have learned how to do so many new things from doing home rennovations ourselves."
-         />
-         <ResumeHeading 
-         heading='Travel'
-         description=" I love going to new coutries and cities and getting to know more cultures."
-         />
-         <ResumeHeading 
-         heading='Animals'
-         description=" I have a dream one day to run an animal sanctuary."
-         />
-</div>,
+    
+     
 
-    /* PROGRAMMING SKILLS */
-    <div
-      className="resume-screen-container programming-skills-container"
-      key="programming-skills"
-    >
-      {programmingSkillsDetails.map((skill, index) => (
-        <div className="skill-parent" key={index}>
-          <div className="heading-bullet"></div>
-          <span>{skill.skill}</span>
-          <div className="skill-percentage">
-            <div
-              style={{ width: skill.ratingPercentage + "%" }}
-              className="active-percentage-bar"
-            ></div>
-          </div>
-        </div>
-      ))}
-    </div>,
 
-    /* PROJECTS */
-    <div className="resume-screen-container" key="projects">
-      {projectsDetails.map((projectsDetails, index) => (
-        <ResumeHeading
-          key={index}
-          heading={projectsDetails.title}
-          subHeading={projectsDetails.subHeading}
-          description={projectsDetails.description}
-          fromDate={projectsDetails.duration.fromDate}
-          toDate={projectsDetails.duration.toDate}
-        />
-      ))}
-    </div>,
 
 
   ];
