@@ -62,7 +62,7 @@ export default function Testimonial(props) {
                                     Landing page with login portal and wholsale locator for wholesale customers, or customers looking for places to purchase instore
                                     </p>
                                   <div className='client-info'>
-                                      <img src="img/wholesalephoto.png" alt="no internet"></img>
+                                      <img src="img/wholesalephoto.png" alt="hydrojugwholesale"></img>
                                       <h5>HydroJug WholeSale Page</h5>
                                       <p className='tech-used' >Technologies Used: Shopify Liquid, CSS, Javascript, APIs, HTML</p>
                                       </div>
@@ -76,7 +76,7 @@ export default function Testimonial(props) {
                                     <p>
                                     Product Information page. Displays photos, price product information, upsells and reviews. aslo add to cart functionality and swatches if there are multiple color options                                    </p>
                                   <div className='client-info'>
-                                      <img src="img/ProductPage.png" alt="pixi.pics"></img>
+                                      <img src="img/ProductPage.png" alt="hydrojugproductpage"></img>
                                       <h5>HydroJug Product Page</h5>
                                       <p className='tech-used'>Technologies Used: Shopify Liquid, CSS, Javascript, APIs, HTML</p>
                                       </div>
@@ -90,7 +90,7 @@ export default function Testimonial(props) {
                                     <p>
                                     This page display all the products in a collection also has a quick add button for a better customer experience.                                    </p>
                                   <div className='client-info'>
-                                      <img src="img/Collectionpage.png" alt="pixi.pics"></img>
+                                      <img src="img/Collectionpage.png" alt="hydrojugproductcollection"></img>
                                       <h5>HydroJug Product Collection</h5>
                                       <p className='tech-used'>Technologies Used: Shopify Liquid, CSS, Javascript, APIs, HTML</p>
                                       </div>
@@ -106,13 +106,28 @@ export default function Testimonial(props) {
 
                                         </p>
                                   <div className='client-info'>
-                                      <img src="img/OurStory.png" alt="pixi.pics"></img>
+                                      <img src="img/OurStory.png" alt="hydrojugaboutus"></img>
                                       <h5>HydroJug Our Story</h5>
                                       <p className='tech-used'>Technologies Used: Shopify Liquid, CSS, Javascript, APIs, HTML, Swiperjs</p>
                                       </div>
                                     </div>
                                 </div>
                             </div>
+                            
+                            <div className='col-lg-12'>
+                            <div className='testi-item'>
+                                <div className='testi-comment'>
+                                    <p>
+                                    This was a complete site overhaul to a new theme to best suit the company feel and vision.                                </p>
+                                  <div className='client-info'>
+                                      <img src="img/cecelianewyork.png" alt="cecelianewyork"></img>
+                                      <h5>Cecelia New York</h5>
+                                      <p className='tech-used'>Technologies Used: Shopify Liquid, CSS, Javascript, APIs, HTML</p>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+
                     </OwlCarousel>
                     </div>
                 </div>
