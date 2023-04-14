@@ -120,7 +120,7 @@ const Resume = (props) => {
                 ● Helping Deploy and Run our UK Site.
                 </span>
                 <br/>
-                </div>,
+                </div>
     
   
                   <ResumeHeading
