@@ -102,12 +102,12 @@ const Resume = (props) => {
       <ResumeHeading
             heading={"HydroJug"}
             subheading={"Web Developer"}
-            fromDate={"2021"}
-            toDate={"Present"}
+            fromDate={" April 2021"}
+            toDate={"June 2022"}
             />
             <div className='experience-description'>
                 <span className='resume-description-text'>
-                    Currently working as a web developer at HydroJug a Start Up Company, Working on a team of 2 and has grown to team of 3 Developers.
+                    Worked as a web developer at HydroJug a Start Up Company, Working on a team of 2 and has grown to team of 3 Developers.
                 </span>
             </div>
             <div className='experience-description'>
@@ -126,6 +126,33 @@ const Resume = (props) => {
                 </div>
       </div>
     </div>,
+    <div className="resume-screen-container" key="work-experience">
+    <div className="experience-container">
+    <ResumeHeading
+          heading={"Cecelia New York"}
+          subheading={"Web Developer / Shopify Store Manager"}
+          fromDate={" June 2022"}
+          toDate={"Present"}
+          />
+          <div className='experience-description'>
+              <span className='resume-description-text'>
+                  Currently working as a solo developer and site manager to maintain the company site and shopify backend.
+              </span>
+          </div>
+          <div className='experience-description'>
+              <span className='resume-description-text'>
+              Responsible for site maintence, speed, and updates including but not limited to Products (sku's, barcodes, images, descriptions, weights, metafieldss, varients, prices, sales, discounts )., Creating new custom sections, pages & features. Theme Updates. Product collection updates.
+              Thirdparty App Intergrations
+              Script/Pixels Intergrations
+              Facebook/Meta Ads and Google Ads Manager
+              Customer Service & Returns, Refuns, Exchanges
+              Collaboration With Team Members
+
+              </span>
+              <br/>
+              </div>
+    </div>
+  </div>,
 
     /* PROGRAMMING SKILLS */
     <div
