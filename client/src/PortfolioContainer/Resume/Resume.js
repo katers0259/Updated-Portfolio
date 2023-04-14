@@ -44,8 +44,8 @@ const Resume = (props) => {
 
   /* STATIC RESUME DATA FOR THE LABELS*/
   const resumeBullets = [
-    { label: "Education", logoSrc: "education.svg" },
     { label: "Work History", logoSrc: "work-history.svg" },
+    { label: "Education", logoSrc: "education.svg" },
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Interests", logoSrc: "interests.svg" },
@@ -148,6 +148,21 @@ const Resume = (props) => {
               </div>
     </div>
   </div>,
+      /* Interests */
+      <div className="resume-screen-container" key="interests">
+      <ResumeHeading 
+         heading='Home Renovations'
+         description=" I love haveing a vision, and then making that vision become a reality. I have learned how to do so many new things from doing home rennovations ourselves."
+         />
+         <ResumeHeading 
+         heading='Travel'
+         description=" I love going to new coutries and cities and getting to know more cultures."
+         />
+         <ResumeHeading 
+         heading='Animals'
+         description=" I have a dream one day to run an animal sanctuary."
+         />
+</div>,
 
     /* PROGRAMMING SKILLS */
     <div
@@ -182,21 +197,7 @@ const Resume = (props) => {
       ))}
     </div>,
 
-    /* Interests */
-    <div className="resume-screen-container" key="interests">
-             <ResumeHeading 
-                heading='Home Renovations'
-                description=" I love haveing a vision, and then making that vision become a reality. I have learned how to do so many new things from doing home rennovations ourselves."
-                />
-                <ResumeHeading 
-                heading='Travel'
-                description=" I love going to new coutries and cities and getting to know more cultures."
-                />
-                <ResumeHeading 
-                heading='Animals'
-                description=" I have a dream one day to run an animal sanctuary."
-                />
-    </div>,
+
   ];
 
   const handleCarousal = (index) => {
