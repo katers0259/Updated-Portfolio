@@ -117,8 +117,8 @@ const Resume = (props) => {
                 Responsible for all aspects of HydroJug US Site, as well as other assigned tasks for our
                 HydroJug UK site as well as some of our other brands. Launching New Products, creating new
                 and modern design for all websites brand wide. Helping with UX/UI Design.
-                </span>
-                <span className='resume-description-text'>
+                <br/>
+                
                 Key Accomplishments:
                 ● Learning an entirely new language (Shopify Liquid) for this position.
                 ● Completed 8 Large Projects in less than 9 Months with the Company.
