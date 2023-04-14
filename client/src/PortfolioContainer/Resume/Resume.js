@@ -94,7 +94,9 @@ const Resume = (props) => {
             fromDate={"2007"}
             toDate={"2010"}
             />
+            <br/>
     </div>,
+    
 
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
