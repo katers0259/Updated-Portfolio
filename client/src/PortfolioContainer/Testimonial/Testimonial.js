@@ -127,7 +127,7 @@ export default function Testimonial(props) {
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div className='col-lg-12'>
                             <div className='testi-item'>
                                 <div className='testi-comment'>
@@ -135,6 +135,19 @@ export default function Testimonial(props) {
                                     Glowbyskala requested their blogs to all be shown on the same page with a card like backgroundand setup.                                </p>
                                   <div className='client-info'>
                                       <img src="img/glowbyskalablog.png" alt="glowbybskalablog"></img>
+                                      <h5>GLOWbyskala</h5>
+                                      <p className='tech-used'>Technologies Used: Shopify Liquid, CSS, Javascript, APIs, HTML</p>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-lg-12'>
+                            <div className='testi-item'>
+                                <div className='testi-comment'>
+                                    <p>
+                                    Glowbyskala requested their wholesale page to a have a form, this was a thirparty app integration.                                </p>
+                                  <div className='client-info'>
+                                      <img src="img/glowholesale.png" alt="glowbybskalawholesale"></img>
                                       <h5>GLOWbyskala</h5>
                                       <p className='tech-used'>Technologies Used: Shopify Liquid, CSS, Javascript, APIs, HTML</p>
                                       </div>
