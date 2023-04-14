@@ -16,14 +16,16 @@ export default function AboutMe(props) {
 
 
         const SCREEN_CONSTANTS = {
-            description:"My Name is Kaitlyn Branagan. I have a love for full stack web development. I am excellent at creating and maintaining great client relationships. I have 10 plus years of customer service skills, as well as management and organization skills. Proven ability to be able to manage a team of employees, while meeting goals.",
+            description:"My Name is Kaitlyn Branagan. I have a love for web development. I am excellent at creating and maintaining great client & Stake Holder relationships. I have 10 plus years of customer service, which is an excellent rescource for the customers journey. Proven management and organization skills. Proven ability to be able to manage a team of employees, while meeting KPI's. I am determined and a fast learner you won't be disapointed.",
             highlights: {
                     bullets:[
                         "Full Stack Web Development",
-                        "Love For UX/ UI Design",
+                        "Determined Fast Learner",
                         "Front End Design",
                         "Team Player",
                         "Management Experience",
+                        "E-Commerce Shopify Experience",
+
                     ],
                     heading:" A Few Highlights:"
             }
