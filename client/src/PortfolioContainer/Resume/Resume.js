@@ -158,11 +158,11 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="interests">
              <ResumeHeading 
                 heading='Home Renovations'
-                description=" I love haveing a vision, and then making that vision become a reality. I have learned how to do so many new things from doing home rennovations ourselves."
+                description=" I love having a vision, and then making that vision become a reality. I have learned how to do so many new things from doing home renovations"
                 />
                 <ResumeHeading 
                 heading='Travel'
-                description=" I love going to new coutries and cities and getting to know more cultures."
+                description=" I love going to new countries and cities and getting to know more cultures."
                 />
                 <ResumeHeading 
                 heading='Animals'
