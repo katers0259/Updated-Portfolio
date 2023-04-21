@@ -52,7 +52,7 @@ export default function Profile() {
                         />
                         </h1>
                         <span className='profile-role-tagline'>
-                            Passiong for Full Stack Development.
+                            Passion for Full Stack Development.
                         </span>
                     </span>
                 </div>
